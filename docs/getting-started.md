@@ -91,5 +91,5 @@ The response contains two objects:
 ## What's next
 
 * [Understand how Supabase Auth works](./concepts/how-supabase-auth-works.md) — Learn about JWTs, sessions, and token refresh.
-* [Explore the signUp() API reference](../api-reference/sign-up.md) — See all parameters, return values, and error codes.
+* [Explore the signUp() API reference](./api-reference/sign-up.md) — See all parameters, return values, and error codes.
 * [Read the official Supabase Auth documentation](https://supabase.com/docs/guides/auth) — Go deeper with social login, MFA, and Row Level Security.
