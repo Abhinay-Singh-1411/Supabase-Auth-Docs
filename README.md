@@ -48,7 +48,7 @@ Every document in this project follows the [Google Developer Style Guide](https:
 **Prerequisites:** Node.js 18 or higher
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/supabase-auth-docs.git
+git clone https://github.com/Abhinay-Singh-1411/Supabase-Auth-Docs.gitx
 cd supabase-auth-docs
 npm install
 npm start
@@ -62,6 +62,6 @@ The site opens at `http://localhost:3000`.
 
 This project was built as a technical writing portfolio piece targeting API documentation roles at developer-focused SaaS companies.
 
-**Author:** Your Name
-**Contact:** your@email.com
-**LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+**Author:** Abhinay Singh
+**Contact:** abhinay.work.1411@gmail.com
+**LinkedIn:** [linkedin.com/in/yourprofile](www.linkedin.com/in/abhinay-singh-8a2213269)
