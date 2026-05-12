@@ -85,65 +85,68 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/Abhinay-Singh-1411/supabase-auth-docs-portfolio',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+  {
+    type: 'docSidebar',
+    sidebarId: 'tutorialSidebar',
+    position: 'left',
+    label: 'Docs',
+  },
+  {
+    href: 'https://github.com/Abhinay-Singh-1411/Supabase-Auth-Docs',
+    label: 'GitHub',
+    position: 'right',
+  },
+],
     },
     footer: {
-      style: 'dark',
-      links: [
+  style: 'dark',
+  links: [
+    {
+      title: 'Docs',
+      items: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
+          label: 'Getting Started',
+          to: '/docs/getting-started',
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
+          label: 'How Supabase Auth Works',
+          to: '/docs/concepts/how-supabase-auth-works',
         },
         {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Abhinay-Singh-1411/supabase-auth-docs-portfolio',
-            },
-          ],
+          label: 'signUp() Reference',
+          to: '/docs/api-reference/sign-up',
         },
       ],
-       copyright: `Copyright © ${new Date().getFullYear()} Abhinay Singh. Built with Docusaurus.`,
     },
+    {
+      title: 'Resources',
+      items: [
+        {
+          label: 'Supabase Docs',
+          href: 'https://supabase.com/docs/guides/auth',
+        },
+        {
+          label: 'Google Style Guide',
+          href: 'https://developers.google.com/style',
+        },
+      ],
+    },
+    {
+      title: 'Connect',
+      items: [
+        {
+          label: 'GitHub',
+          href: 'https://github.com/Abhinay-Singh-1411/Supabase-Auth-Docs',
+        },
+        {
+          label: 'LinkedIn',
+          href: 'https://linkedin.com/in/yourprofile',
+        },
+      ],
+    },
+  ],
+  copyright: `Copyright © ${new Date().getFullYear()} Abhinay Singh. Built with Docusaurus.`,
+},
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
