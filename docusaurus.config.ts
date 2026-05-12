@@ -86,8 +86,7 @@ const config: Config = {
       },
       items: [
   {
-    type: 'docSidebar',
-    sidebarId: 'tutorialSidebar',
+    to: '/docs/getting-started',
     position: 'left',
     label: 'Docs',
   },
@@ -140,7 +139,7 @@ const config: Config = {
         },
         {
           label: 'LinkedIn',
-          href: 'https://linkedin.com/in/yourprofile',
+          href: 'https://www.linkedin.com/in/abhinay-singh-8a2213269',
         },
       ],
     },
