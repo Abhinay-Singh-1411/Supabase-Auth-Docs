@@ -81,7 +81,7 @@ const config: Config = {
     navbar: {
       title: 'Supabase Auth Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Supabase Logo',
         src: 'img/logo.svg',
       },
       items: [
