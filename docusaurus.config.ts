@@ -19,7 +19,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://supabase-auth-docs.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -79,7 +79,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Supabase Auth Docs',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -93,7 +93,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Abhinay-Singh-1411/supabase-auth-docs-portfolio',
           label: 'GitHub',
           position: 'right',
         },
@@ -137,12 +137,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Abhinay-Singh-1411/supabase-auth-docs-portfolio',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+       copyright: `Copyright © ${new Date().getFullYear()} Abhinay Singh. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
