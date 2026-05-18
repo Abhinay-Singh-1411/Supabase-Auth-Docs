@@ -1,10 +1,10 @@
 # How Supabase Auth works
 
-Supabase helps you handle user identity so you don't have to build login, session management, or token logic from scratch. This page explains what happens underneath when a user signs in.
+Supabase handle users identity so you don't have to build login, do session management, or token logic from scratch. In this page we will understand what happens underneath when a user signs in.
 
 ## The authentication flow
 
-Supabase Auth follows a secure standard flow to verify its users and grant access to the resources.
+To verify its users and grant access to the resources, Supabase Auth follows a secure standard-
 
 1. After user registers using signUp(). Supabase will create a new record in the auth.users table and sends a confirmation email if email confirmation is enabled.
 2. The user will then sign in using signIn(). You will send their credentials to the supabase Auth server.
@@ -26,7 +26,7 @@ Supabase Auth uses two types of tokens to maintain secure sessions.
 
 The access token works like a short-lived ticket, it gets you through the door but it expires after one hour. When this token expires, your app uses the refresh token to request a new access token automatically. Supabase handles this in the background, so your users stay signed in without interruption. You never need to write this rotation yourself.
 
-The refresh token is a long-lived credential used to obtain a new access token when the current one expires. Supabase Auth handles this rotation automatically to keep users signed in without requiring frequent logins. \ The refresh token is a long-lived credential stored alongside the access token. Supabase also rotate it automatically every time a new access token is issued. If a refresh token is compromised, you can revoke it from Supabase Dashboard under **Authentication→ Users**
+The refresh token is a long-lived credential stored alongside the access token. Supabase also rotate it automatically every time a new access token is issued. If a refresh token is compromised, you can revoke it from Supabase Dashboard under **Authentication→ Users**
 
 ## Session persistence
 
