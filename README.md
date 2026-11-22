@@ -4,7 +4,7 @@ A technical writing portfolio project demonstrating professional API documentati
 
 Built to Google Developer Style Guide standards using Docusaurus, GitHub, and Vercel.
 
-**Live site:** [your-site.vercel.app](https://your-site.vercel.app)
+**Live site:** [Supabase Auth](https://supabase-auth-docs.vercel.app/)
 
 ---
 
